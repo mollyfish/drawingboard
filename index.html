@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <title>Drawing Board</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <label for="snaptogrid">Snap to Grid</label>
+    <input type="checkbox" id="snaptogrid" checked>
+    <fieldset id="tools">
+        <label for="selectTool">Select</label>
+        <input type="radio" name="tool" id="selectTool" checked>
+        <label for="lineTool">Line Segment</label>
+        <input type="radio" name="tool" id="lineTool">
+    </fieldset>
+    <canvas id="canvas" height="420" width="420"></canvas>
+    <button id="clearButton">Clear</button>
+    <button id="undoButton">Undo</button>
+
+    <script src="js/deps/jquery-3.2.1.js"></script>
+    <script src="js/draw.js"></script>
+
+</body>
+</html>

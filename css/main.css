@@ -1,0 +1,7 @@
+p {
+  color: red;
+}
+canvas {
+  border: 1px solid red;
+  background-image: url("../imgs/30px.png");
+}
