@@ -112,7 +112,6 @@
       drawLine(startX, startY, mouseX, mouseY);
       saveLine(startX, startY, mouseX, mouseY);
       renderLines();
-      console.log(snap);
     }
   }
   
